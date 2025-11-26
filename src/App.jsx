@@ -392,7 +392,7 @@ const categoryNames = {
 }
 
 function App() {
-  const orderUrl = "https://www.doordash.com/store/favilla's-new-york-pizza-asheville-345038/"
+  const orderUrl = "https://favillasrealnypizza.hrpos.heartland.us/menu"
 
   return (
     <div className="min-h-screen bg-warm-white">
