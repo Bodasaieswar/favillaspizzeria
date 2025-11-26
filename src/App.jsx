@@ -1,182 +1,394 @@
 import { motion } from 'framer-motion'
 import './App.css'
 
-// Menu Data
+// Menu Data - Complete Favilla's NY Pizza Menu
 const menuData = {
-  pizzas: [
-    {
-      name: "NY Style Cheese Pizza",
-      description: "Classic New York style pizza with our signature tomato sauce and premium mozzarella cheese",
-      price: "14.99",
-      image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&h=300&fit=crop",
-      badge: "Classic"
-    },
-    {
-      name: "Pepperoni Pizza",
-      description: "Loaded with premium pepperoni slices over melted mozzarella and tangy tomato sauce",
-      price: "16.99",
-      image: "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400&h=300&fit=crop",
-      badge: "Popular"
-    },
-    {
-      name: "Margherita Pizza",
-      description: "Fresh mozzarella, tomatoes, basil, and extra virgin olive oil on a crispy crust",
-      price: "15.99",
-      image: "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=400&h=300&fit=crop"
-    },
-    {
-      name: "Supreme Pizza",
-      description: "Pepperoni, sausage, bell peppers, onions, mushrooms, and black olives",
-      price: "18.99",
-      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop",
-      badge: "Best Seller"
-    },
-    {
-      name: "Sicilian Pizza",
-      description: "Thick, square-cut pizza with a fluffy interior and crispy bottom crust",
-      price: "17.99",
-      image: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=400&h=300&fit=crop"
-    },
-    {
-      name: "White Pizza",
-      description: "Ricotta, mozzarella, garlic, and olive oil - no tomato sauce",
-      price: "16.99",
-      image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=300&fit=crop"
-    }
-  ],
-  calzones: [
-    {
-      name: "Classic Calzone",
-      description: "Folded pizza dough stuffed with ricotta, mozzarella, and your choice of fillings",
-      price: "12.99",
-      image: "https://images.unsplash.com/photo-1536964549204-cce9eab227bd?w=400&h=300&fit=crop"
-    },
-    {
-      name: "Meat Lovers Calzone",
-      description: "Stuffed with pepperoni, sausage, ham, bacon, and melted cheese",
-      price: "14.99",
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&h=300&fit=crop",
-      badge: "Hearty"
-    },
-    {
-      name: "Stromboli",
-      description: "Rolled pizza dough with Italian meats, cheese, and marinara dipping sauce",
-      price: "13.99",
-      image: "https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=400&h=300&fit=crop"
-    }
-  ],
   appetizers: [
     {
-      name: "Garlic Knots",
-      description: "Fresh-baked knots brushed with garlic butter and parmesan",
-      price: "6.99",
-      image: "https://images.unsplash.com/photo-1619531040576-f9416aedb7c3?w=400&h=300&fit=crop",
-      badge: "Fan Favorite"
+      name: "Jamaican Beef Patties",
+      description: "Savory seasoned beef wrapped in a flaky golden crust",
+      price: "5.50",
+      image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Fried Zucchini Sticks",
+      description: "Crispy breaded zucchini sticks served with marinara sauce",
+      price: "8.99",
+      image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&h=300&fit=crop"
     },
     {
       name: "Mozzarella Sticks",
       description: "Golden fried mozzarella served with marinara sauce",
       price: "8.99",
-      image: "https://images.unsplash.com/photo-1531749668029-2db88e4276c7?w=400&h=300&fit=crop"
+      image: "https://images.unsplash.com/photo-1531749668029-2db88e4276c7?w=400&h=300&fit=crop",
+      badge: "Popular"
     },
     {
-      name: "Buffalo Wings",
-      description: "Crispy wings tossed in your choice of sauce with ranch or blue cheese",
-      price: "12.99",
-      image: "https://images.unsplash.com/photo-1608039829572-9b5e51034c34?w=400&h=300&fit=crop"
+      name: "Garlic Rolls",
+      description: "Fresh-baked rolls brushed with garlic butter and herbs",
+      price: "4.25",
+      image: "https://images.unsplash.com/photo-1619531040576-f9416aedb7c3?w=400&h=300&fit=crop",
+      badge: "Fan Favorite"
     },
     {
-      name: "Bruschetta",
-      description: "Toasted bread topped with fresh tomatoes, basil, and balsamic glaze",
-      price: "7.99",
-      image: "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?w=400&h=300&fit=crop"
+      name: "French Fries",
+      description: "Crispy golden french fries",
+      price: "3.99",
+      image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Side Dressing",
+      description: "Your choice of dressing on the side",
+      price: "1.00",
+      image: "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Side Marinara",
+      description: "House-made marinara dipping sauce",
+      price: "1.00",
+      image: "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?w=400&h=300&fit=crop"
     }
   ],
-  salads: [
+  pizzas: [
     {
-      name: "Caesar Salad",
-      description: "Romaine lettuce, parmesan, croutons, and creamy Caesar dressing",
-      price: "9.99",
-      image: "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=400&h=300&fit=crop"
-    },
-    {
-      name: "Garden Salad",
-      description: "Mixed greens, tomatoes, cucumbers, onions, and your choice of dressing",
-      price: "8.99",
-      image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop"
-    },
-    {
-      name: "Antipasto Salad",
-      description: "Italian meats, cheeses, olives, peppers, and mixed greens",
-      price: "12.99",
-      image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400&h=300&fit=crop"
-    }
-  ],
-  pasta: [
-    {
-      name: "Spaghetti & Meatballs",
-      description: "Classic spaghetti with homemade meatballs and marinara sauce",
-      price: "14.99",
-      image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&h=300&fit=crop",
-      badge: "Homemade"
-    },
-    {
-      name: "Chicken Parmesan",
-      description: "Breaded chicken cutlet with marinara and melted mozzarella over pasta",
-      price: "16.99",
-      image: "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?w=400&h=300&fit=crop"
-    },
-    {
-      name: "Baked Ziti",
-      description: "Ziti pasta baked with ricotta, mozzarella, and meat sauce",
-      price: "13.99",
-      image: "https://images.unsplash.com/photo-1595295333158-4742f28fbd85?w=400&h=300&fit=crop"
-    },
-    {
-      name: "Fettuccine Alfredo",
-      description: "Fettuccine tossed in creamy parmesan alfredo sauce",
-      price: "13.99",
-      image: "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?w=400&h=300&fit=crop"
-    }
-  ],
-  subs: [
-    {
-      name: "Italian Sub",
-      description: "Ham, salami, capicola, provolone, lettuce, tomato, onion, and Italian dressing",
-      price: "11.99",
-      image: "https://images.unsplash.com/photo-1539252554453-80ab65ce3586?w=400&h=300&fit=crop"
-    },
-    {
-      name: "Meatball Sub",
-      description: "Homemade meatballs with marinara sauce and melted provolone",
+      name: "Favilla's Traditional Pizza",
+      description: "Our signature NY style pizza with house-made sauce and premium mozzarella",
       price: "10.99",
-      image: "https://images.unsplash.com/photo-1619096252214-ef06c45683e3?w=400&h=300&fit=crop"
+      image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&h=300&fit=crop",
+      badge: "Signature"
     },
     {
-      name: "Chicken Parm Sub",
-      description: "Breaded chicken, marinara, and melted mozzarella on a toasted roll",
-      price: "12.99",
-      image: "https://images.unsplash.com/photo-1481070555726-e2fe8357571d?w=400&h=300&fit=crop"
+      name: "Margherita Pizza",
+      description: "Fresh mozzarella, tomatoes, basil, and extra virgin olive oil",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=400&h=300&fit=crop",
+      badge: "Classic"
+    },
+    {
+      name: "Hidden Valley Pizza",
+      description: "Ranch-based pizza with fresh toppings and melted cheese",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop"
+    },
+    {
+      name: "BBQ Chicken Pizza",
+      description: "Grilled chicken, BBQ sauce, red onions, and cilantro",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&h=300&fit=crop",
+      badge: "Popular"
+    },
+    {
+      name: "Buffalo Chicken Pizza",
+      description: "Spicy buffalo chicken with blue cheese crumbles",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Cream Of Spinach Pizza",
+      description: "Creamy spinach base with garlic and mozzarella",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&h=300&fit=crop"
+    },
+    {
+      name: "BBQ Delight Pizza",
+      description: "BBQ sauce, mixed meats, onions, and peppers",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Steak Deluxe Pizza",
+      description: "Sliced steak, peppers, onions, and mushrooms",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=300&fit=crop"
+    },
+    {
+      name: "CheeseBurger Pizza",
+      description: "Ground beef, pickles, onions, and special sauce",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Fresco Pizza",
+      description: "Fresh tomatoes, basil, garlic, and olive oil",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Lasagna Pizza",
+      description: "Ricotta, meat sauce, and mozzarella - lasagna on a pizza",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Primavera Pizza",
+      description: "Fresh seasonal vegetables with garlic and olive oil",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&h=300&fit=crop"
+    },
+    {
+      name: "House Special Pizza",
+      description: "Pepperoni, sausage, peppers, onions, and mushrooms",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop",
+      badge: "Best Seller"
+    },
+    {
+      name: "Veggie Special Pizza",
+      description: "Mushrooms, peppers, onions, olives, and tomatoes",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1511689660979-10d2b1aada49?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Meat Special Pizza",
+      description: "Pepperoni, sausage, ham, bacon, and ground beef",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400&h=300&fit=crop",
+      badge: "Hearty"
+    },
+    {
+      name: "Meatball Parmesan Pizza",
+      description: "Sliced meatballs, marinara, and melted mozzarella",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Eggplant Parmesan Pizza",
+      description: "Breaded eggplant, marinara, and mozzarella",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&h=300&fit=crop"
+    },
+    {
+      name: "White Mediterranean Pizza",
+      description: "Olive oil base, feta, olives, tomatoes, and spinach",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Balsamic Chicken Pizza",
+      description: "Grilled chicken, balsamic glaze, and fresh arugula",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Chicken Parmesan Pizza",
+      description: "Breaded chicken, marinara, and melted mozzarella",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=400&h=300&fit=crop"
+    }
+  ],
+  glutenFree: [
+    {
+      name: "GF Cream Of Spinach Pizza",
+      description: "Creamy spinach base with garlic and mozzarella on 10\" gluten-free crust",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&h=300&fit=crop",
+      badge: "Gluten Free"
+    },
+    {
+      name: "GF Pizza Fresco",
+      description: "Fresh tomatoes, basil, garlic on 10\" gluten-free crust",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=400&h=300&fit=crop",
+      badge: "Gluten Free"
+    },
+    {
+      name: "GF BBQ Chicken Pizza",
+      description: "BBQ chicken, onions, cilantro on 10\" gluten-free crust",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&h=300&fit=crop",
+      badge: "Gluten Free"
+    },
+    {
+      name: "GF White Mediterranean Pizza",
+      description: "Feta, olives, tomatoes, spinach on 10\" gluten-free crust",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=300&fit=crop",
+      badge: "Gluten Free"
+    },
+    {
+      name: "GF CheeseBurger Pizza",
+      description: "Ground beef, pickles, special sauce on 10\" gluten-free crust",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=400&h=300&fit=crop",
+      badge: "Gluten Free"
+    },
+    {
+      name: "GF Margherita Pizza",
+      description: "Fresh mozzarella, tomatoes, basil on 10\" gluten-free crust",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=400&h=300&fit=crop",
+      badge: "Gluten Free"
+    },
+    {
+      name: "GF Chicken Parmesan Pizza",
+      description: "Breaded chicken, marinara on 10\" gluten-free crust",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=400&h=300&fit=crop",
+      badge: "Gluten Free"
+    },
+    {
+      name: "GF Hidden Valley Pizza",
+      description: "Ranch-based with fresh toppings on 10\" gluten-free crust",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop",
+      badge: "Gluten Free"
+    },
+    {
+      name: "GF Buffalo Chicken Pizza",
+      description: "Spicy buffalo chicken on 10\" gluten-free crust",
+      price: "16.49",
+      image: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=400&h=300&fit=crop",
+      badge: "Gluten Free"
+    }
+  ],
+  calzones: [
+    {
+      name: "Cheese Calzone",
+      description: "Folded pizza dough stuffed with ricotta and mozzarella cheese",
+      price: "11.49",
+      image: "https://images.unsplash.com/photo-1536964549204-cce9eab227bd?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Build Your Own Stromboli",
+      description: "Choose your favorite fillings wrapped in fresh dough",
+      price: "13.00",
+      image: "https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Traditional Stromboli",
+      description: "Italian meats, cheese, and peppers rolled in fresh dough",
+      price: "13.95",
+      image: "https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=400&h=300&fit=crop",
+      badge: "Classic"
+    },
+    {
+      name: "10\" Dough Ball",
+      description: "Fresh pizza dough ball - perfect for homemade pizza",
+      price: "3.00",
+      image: "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=400&h=300&fit=crop"
+    },
+    {
+      name: "14\" Dough Ball",
+      description: "Fresh pizza dough ball - medium size",
+      price: "6.00",
+      image: "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=400&h=300&fit=crop"
+    },
+    {
+      name: "16\" Dough Ball",
+      description: "Fresh pizza dough ball - large size",
+      price: "8.00",
+      image: "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=400&h=300&fit=crop"
+    }
+  ],
+  drinks: [
+    {
+      name: "Sweet Tea",
+      description: "Refreshing Southern-style sweet tea",
+      price: "2.49",
+      image: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Monster Energy Mean Bean",
+      description: "Coffee-flavored energy drink",
+      price: "3.50",
+      image: "https://images.unsplash.com/photo-1622543925917-763c34d1a86e?w=400&h=300&fit=crop"
+    },
+    {
+      name: "San Pellegrino",
+      description: "Premium Italian sparkling water",
+      price: "3.50",
+      image: "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Bottled Water",
+      description: "Pure refreshing bottled water",
+      price: "1.59",
+      image: "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Canned Soda",
+      description: "Coke, Diet, Cherry, Sprite, Zero, or Lemonade",
+      price: "1.59",
+      image: "https://images.unsplash.com/photo-1581006852262-e4307cf6283a?w=400&h=300&fit=crop"
+    },
+    {
+      name: "20oz Soda",
+      description: "Coke, Diet, Cherry, Sprite, Pibb, or Lemonade",
+      price: "2.29",
+      image: "https://images.unsplash.com/photo-1581006852262-e4307cf6283a?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Minute Maid Apple Juice",
+      description: "100% pure apple juice",
+      price: "2.29",
+      image: "https://images.unsplash.com/photo-1576673442511-7e39b6545c87?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Manhattan Special",
+      description: "Classic espresso coffee soda",
+      price: "3.50",
+      image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Powerade",
+      description: "Sports drink to keep you energized",
+      price: "2.50",
+      image: "https://images.unsplash.com/photo-1622543925917-763c34d1a86e?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Snapple",
+      description: "Fruit Punch or Apple flavor",
+      price: "2.29",
+      image: "https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?w=400&h=300&fit=crop"
+    }
+  ],
+  desserts: [
+    {
+      name: "Dunkin Donut",
+      description: "Fresh donut from Dunkin",
+      price: "3.00",
+      image: "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=400&h=300&fit=crop"
+    },
+    {
+      name: "Mascarpone Limoncello Cake",
+      description: "Creamy mascarpone cake with lemon liqueur flavor",
+      price: "6.99",
+      image: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=400&h=300&fit=crop",
+      badge: "Premium"
+    },
+    {
+      name: "Tiramisu",
+      description: "Classic Italian dessert with espresso-soaked ladyfingers",
+      price: "6.99",
+      image: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop",
+      badge: "Classic"
+    },
+    {
+      name: "Cannoli",
+      description: "Crispy shell filled with sweet ricotta cream",
+      price: "5.99",
+      image: "https://images.unsplash.com/photo-1607920592519-bab8da732222?w=400&h=300&fit=crop",
+      badge: "Italian Favorite"
     }
   ]
 }
 
 const categoryIcons = {
-  pizzas: "🍕",
-  calzones: "🥟",
   appetizers: "🧆",
-  salads: "🥗",
-  pasta: "🍝",
-  subs: "🥪"
+  pizzas: "🍕",
+  glutenFree: "🌿",
+  calzones: "🥟",
+  drinks: "🥤",
+  desserts: "🍰"
 }
 
 const categoryNames = {
-  pizzas: "NY Style Pizzas",
-  calzones: "Calzones & Stromboli",
-  appetizers: "Appetizers",
-  salads: "Fresh Salads",
-  pasta: "Pasta Dishes",
-  subs: "Hot Subs"
+  appetizers: "Appetizers & Sides",
+  pizzas: "Traditional & Specialty Pizzas",
+  glutenFree: "Gluten Free 10\" Pizzas",
+  calzones: "Calzones, Strombolis & Dough",
+  drinks: "Drinks",
+  desserts: "Desserts"
 }
 
 function App() {
@@ -351,7 +563,7 @@ function App() {
                     initial={{ opacity: 0, scale: 0.9 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 0.4, delay: index * 0.1 }}
+                    transition={{ duration: 0.4, delay: index * 0.05 }}
                     whileHover={{ y: -10, scale: 1.02 }}
                     className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
                   >
