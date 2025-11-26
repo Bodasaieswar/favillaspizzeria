@@ -412,7 +412,7 @@ function App() {
             />
             <div>
               <h1 className="text-white text-2xl font-bold drop-shadow-lg">Favilla's Real NY Pizza</h1>
-              <span className="text-gold text-sm">Authentic New York Style</span>
+              <span className="text-gold text-sm">Authentic Italian Pizza</span>
             </div>
           </div>
           <nav className="flex flex-wrap items-center gap-6">
@@ -478,7 +478,7 @@ function App() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
           >
-            Authentic <span className="text-gold">New York</span> Pizza
+            Authentic <span className="text-gold">Italian</span> Pizza
           </motion.h1>
           <motion.p
             className="text-xl md:text-2xl text-white/90 mb-10"
@@ -486,7 +486,8 @@ function App() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.7 }}
           >
-            Hand-tossed, brick-oven baked perfection in the heart of Asheville
+            At Favilla's every pizza is a masterpiece of authentic Italian taste, made with love by a real Italian family in Ashville.
+           
           </motion.p>
           <motion.div
             className="flex flex-col sm:flex-row gap-4 justify-center"
