@@ -412,7 +412,7 @@ function App() {
             />
             <div>
               <h1 className="text-white text-2xl font-bold drop-shadow-lg">Favilla's Real NY Pizza</h1>
-              <span className="text-gold text-sm">Authentic Italian Pizza</span>
+              <span className="text-gold text-sm">Real Italians-Real NewYorkers </span>
             </div>
           </div>
           <nav className="flex flex-wrap items-center gap-6">
