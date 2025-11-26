@@ -564,16 +564,14 @@ function App() {
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: index * 0.05 }}
-                    whileHover={{ y: -10, scale: 1.02 }}
-                    className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
+                    className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 md:hover:-translate-y-2 md:hover:scale-[1.02]"
                   >
                     <div className="relative overflow-hidden">
-                      <motion.img
+                      <img
                         src={item.image}
                         alt={item.name}
-                        className="w-full h-48 object-cover"
-                        whileHover={{ scale: 1.1 }}
-                        transition={{ duration: 0.5 }}
+                        className="w-full h-48 object-cover transition-transform duration-500 md:hover:scale-110"
+                        loading="lazy"
                       />
                       {item.badge && (
                         <span className="absolute top-4 right-4 bg-primary-red text-white px-3 py-1 rounded-full text-sm font-semibold">
