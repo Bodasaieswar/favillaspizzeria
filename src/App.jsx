@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import './App.css'
 
-// Menu Data - Complete Favilla's NY Pizza Menu
+// Menu Data - Complete Favilla's Real NY Pizza Menu
 const menuData = {
   appetizers: [
     {
@@ -411,7 +411,7 @@ function App() {
               className="w-12 h-12 rounded-full border-3 border-gold object-cover"
             />
             <div>
-              <h1 className="text-white text-2xl font-bold drop-shadow-lg">Favilla's NY Pizza</h1>
+              <h1 className="text-white text-2xl font-bold drop-shadow-lg">Favilla's Real NY Pizza</h1>
               <span className="text-gold text-sm">Authentic New York Style</span>
             </div>
           </div>
@@ -673,7 +673,7 @@ function App() {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Favilla's NY Pizza Location"
+                title="Favilla's Real NY Pizza Location"
                 className="w-full"
               ></iframe>
             </motion.div>
@@ -687,7 +687,7 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div>
               <h4 className="text-gold text-2xl font-bold mb-6 pb-3 border-b-2 border-primary-red inline-block">
-                Favilla's NY Pizza
+                Favilla's Real NY Pizza
               </h4>
               <p className="text-white/70 leading-relaxed">
                 Bringing authentic New York style pizza to Asheville since day one.
@@ -723,7 +723,7 @@ function App() {
 
           <div className="mt-12 pt-8 border-t border-white/10 text-center">
             <p className="text-white/50">
-              © {new Date().getFullYear()} Favilla's NY Pizza. All rights reserved.
+              © {new Date().getFullYear()} Favilla's Real NY Pizza. All rights reserved.
             </p>
           </div>
         </div>
