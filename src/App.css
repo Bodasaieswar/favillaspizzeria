@@ -1,27 +1,4 @@
-/* Additional custom styles that complement Tailwind */
-.border-3 {
-  border-width: 3px;
-}
-
-.border-b-3 {
-  border-bottom-width: 3px;
-}
-
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
-}
-
-/* Custom animations */
-@keyframes pulse-glow {
-  0%, 100% {
-    box-shadow: 0 0 20px rgba(196, 30, 58, 0.4);
-  }
-  50% {
-    box-shadow: 0 0 40px rgba(196, 30, 58, 0.6);
-  }
-}
-
-.pulse-glow {
-  animation: pulse-glow 2s ease-in-out infinite;
 }
