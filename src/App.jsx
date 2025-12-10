@@ -309,7 +309,7 @@ const menuData = {
       name: "Canned Soda",
       description: "Coke, Diet, Cherry, Sprite, Zero, or Lemonade",
       price: "1.59",
-      image: "https://images.unsplash.com/photo-1581006852262-e4307cf6283a?w=400&h=300&fit=crop"
+      image: "https://unsplash.com/photos/a-group-of-soda-cans-stacked-on-top-of-each-other-L7ugLVFdejY?w=400&h=300&fit=crop"
     },
     {
       name: "20oz Soda",
