@@ -5,7 +5,7 @@ export const menuData = {
       name: "Jamaican Beef Patties",
       description: "Savory seasoned beef wrapped in a flaky golden crust",
       price: "5.50",
-      image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=400&h=300&fit=crop"
+      image: "https://images.unsplash.com/photo-1632203171982-cc0df6e9ebeb?w=400&h=300&fit=crop"
     },
     {
       name: "Fried Zucchini Sticks",
@@ -24,7 +24,7 @@ export const menuData = {
       name: "Garlic Rolls",
       description: "Fresh-baked rolls brushed with garlic butter and herbs",
       price: "4.95",
-      image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1619531040576-f9416aedb7c3?w=400&h=300&fit=crop",
       badge: "Fan Favorite"
     },
     {
@@ -37,7 +37,7 @@ export const menuData = {
       name: "Side Dressing",
       description: "Your choice of dressing on the side",
       price: "1.00",
-      image: "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400&h=300&fit=crop"
+      image: "https://images.unsplash.com/photo-1472476443507-c7a5948772fc?w=400&h=300&fit=crop"
     },
     {
       name: "Side Marinara",
@@ -71,20 +71,20 @@ export const menuData = {
       name: "BBQ Chicken Pizza",
       description: "Grilled chicken, BBQ sauce, red onions, and cilantro",
       price: "16.49",
-      image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&h=300&fit=crop",
       badge: "Popular"
     },
     {
       name: "Buffalo Chicken Pizza",
       description: "Spicy buffalo chicken with blue cheese crumbles",
       price: "16.49",
-      image: "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400&h=300&fit=crop"
+      image: "https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=400&h=300&fit=crop"
     },
     {
       name: "Cream Of Spinach Pizza",
       description: "Creamy spinach base with garlic and mozzarella",
       price: "16.49",
-      image: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=400&h=300&fit=crop"
+      image: "https://source.unsplash.com/XtLPfib7OuM/400x300"
     },
     {
       name: "BBQ Delight Pizza",
@@ -96,7 +96,7 @@ export const menuData = {
       name: "Steak Deluxe Pizza",
       description: "Sliced steak, peppers, onions, and mushrooms",
       price: "16.49",
-      image: "https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=400&h=300&fit=crop"
+      image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&h=300&fit=crop"
     },
     {
       name: "CheeseBurger Pizza",
@@ -152,7 +152,7 @@ export const menuData = {
       name: "Eggplant Parmesan Pizza",
       description: "Breaded eggplant, marinara, and mozzarella",
       price: "16.49",
-      image: "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?w=400&h=300&fit=crop"
+      image: "https://images.unsplash.com/photo-1511689660979-10d2b1aada49?w=400&h=300&fit=crop"
     },
     {
       name: "White Mediterranean Pizza",
