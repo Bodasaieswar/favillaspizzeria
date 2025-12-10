@@ -5,7 +5,7 @@ export const menuData = {
       name: "Jamaican Beef Patties",
       description: "Savory seasoned beef wrapped in a flaky golden crust",
       price: "5.50",
-      image: "https://images.unsplash.com/photo-1590779033100-9f60a05a013d?w=400&h=300&fit=crop"
+      image: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=400&h=300&fit=crop"
     },
     {
       name: "Fried Zucchini Sticks",
@@ -249,32 +249,32 @@ export const menuData = {
       name: "Build Your Own Stromboli",
       description: "Choose your favorite fillings wrapped in fresh dough",
       price: "13.00",
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&h=300&fit=crop"
+      image: "https://plus.unsplash.com/premium_photo-1683619761492-639240d91c2c?w=400&h=300&fit=crop"
     },
     {
       name: "Traditional Stromboli",
       description: "Italian meats, cheese, and peppers rolled in fresh dough",
       price: "13.95",
-      image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&h=300&fit=crop",
+      image: "https://plus.unsplash.com/premium_photo-1683619761492-639240d91c2c?w=400&h=300&fit=crop",
       badge: "Classic"
     },
     {
       name: "10\" Dough Ball",
       description: "Fresh pizza dough ball - perfect for homemade pizza",
       price: "3.00",
-      image: "https://images.unsplash.com/photo-1585478259715-876acc5be8eb?w=400&h=300&fit=crop"
+      image: "https://images.unsplash.com/photo-1603569283847-aa295f0d016a?w=400&h=300&fit=crop"
     },
     {
       name: "14\" Dough Ball",
       description: "Fresh pizza dough ball - medium size",
       price: "6.00",
-      image: "https://images.unsplash.com/photo-1585478259715-876acc5be8eb?w=400&h=300&fit=crop"
+      image: "https://images.unsplash.com/photo-1603569283847-aa295f0d016a?w=400&h=300&fit=crop"
     },
     {
       name: "16\" Dough Ball",
       description: "Fresh pizza dough ball - large size",
       price: "8.00",
-      image: "https://images.unsplash.com/photo-1585478259715-876acc5be8eb?w=400&h=300&fit=crop"
+      image: "https://images.unsplash.com/photo-1603569283847-aa295f0d016a?w=400&h=300&fit=crop"
     }
   ],
   drinks: [
@@ -294,7 +294,7 @@ export const menuData = {
       name: "San Pellegrino",
       description: "Premium Italian sparkling water",
       price: "3.50",
-      image: "https://images.unsplash.com/photo-1560508179-b2c9a3f8e92b?w=400&h=300&fit=crop"
+      image: "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=400&h=300&fit=crop"
     },
     {
       name: "Bottled Water",
@@ -306,7 +306,7 @@ export const menuData = {
       name: "Canned Soda",
       description: "Coke, Diet, Cherry, Sprite, Zero, or Lemonade",
       price: "1.59",
-      image: "https://images.unsplash.com/photo-1581006852262-e4307cf6283a?w=400&h=300&fit=crop"
+      image: "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=400&h=300&fit=crop"
     },
     {
       name: "20oz Soda",
