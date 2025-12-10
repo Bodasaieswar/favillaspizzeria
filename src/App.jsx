@@ -18,7 +18,7 @@ const menuData = {
     },
     {
       name: "Mozzarella Sticks",
-      description: "Golden fried mozzarella served with marinara sauce",
+      description: "Golden fried mozzarella served with homemade marinara sauce",
       price: "8.99",
       image: "https://images.unsplash.com/photo-1531749668029-2db88e4276c7?w=400&h=300&fit=crop",
       badge: "Popular"
@@ -26,7 +26,7 @@ const menuData = {
     {
       name: "Garlic Rolls",
       description: "Fresh-baked rolls brushed with garlic butter and herbs",
-      price: "4.25",
+      price: "4.95",
       image: "https://images.unsplash.com/photo-1619531040576-f9416aedb7c3?w=400&h=300&fit=crop",
       badge: "Fan Favorite"
     },
@@ -59,14 +59,14 @@ const menuData = {
     },
     {
       name: "Margherita Pizza",
-      description: "Fresh mozzarella, tomatoes, basil, and extra virgin olive oil",
+      description: "Fresh mozzarella, tomatoes, basil & olive oil",
       price: "16.49",
       image: "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=400&h=300&fit=crop",
       badge: "Classic"
     },
     {
       name: "Hidden Valley Pizza",
-      description: "Ranch-based pizza with fresh toppings and melted cheese",
+      description: "Grilled Chicken, Cheddar cheese & bacon with ranch dressing base",
       price: "16.49",
       image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop"
     },
