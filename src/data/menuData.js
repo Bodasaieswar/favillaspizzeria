@@ -249,32 +249,32 @@ export const menuData = {
       name: "Build Your Own Stromboli",
       description: "Choose your favorite fillings wrapped in fresh dough",
       price: "13.00",
-      image: "https://plus.unsplash.com/premium_photo-1683619761492-639240d91c2c?w=400&h=300&fit=crop"
+      image: "https://source.unsplash.com/6eAfaHjqThk/400x300"
     },
     {
       name: "Traditional Stromboli",
       description: "Italian meats, cheese, and peppers rolled in fresh dough",
       price: "13.95",
-      image: "https://plus.unsplash.com/premium_photo-1683619761492-639240d91c2c?w=400&h=300&fit=crop",
+      image: "https://source.unsplash.com/6eAfaHjqThk/400x300",
       badge: "Classic"
     },
     {
       name: "10\" Dough Ball",
       description: "Fresh pizza dough ball - perfect for homemade pizza",
       price: "3.00",
-      image: "https://images.unsplash.com/photo-1603569283847-aa295f0d016a?w=400&h=300&fit=crop"
+      image: "https://source.unsplash.com/4yzEtTQLdL4/400x300"
     },
     {
       name: "14\" Dough Ball",
       description: "Fresh pizza dough ball - medium size",
       price: "6.00",
-      image: "https://images.unsplash.com/photo-1603569283847-aa295f0d016a?w=400&h=300&fit=crop"
+      image: "https://source.unsplash.com/4yzEtTQLdL4/400x300"
     },
     {
       name: "16\" Dough Ball",
       description: "Fresh pizza dough ball - large size",
       price: "8.00",
-      image: "https://images.unsplash.com/photo-1603569283847-aa295f0d016a?w=400&h=300&fit=crop"
+      image: "https://source.unsplash.com/4yzEtTQLdL4/400x300"
     }
   ],
   drinks: [
@@ -294,7 +294,7 @@ export const menuData = {
       name: "San Pellegrino",
       description: "Premium Italian sparkling water",
       price: "3.50",
-      image: "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=400&h=300&fit=crop"
+      image: "https://source.unsplash.com/35Eiva5O-t0/400x300"
     },
     {
       name: "Bottled Water",
@@ -306,7 +306,7 @@ export const menuData = {
       name: "Canned Soda",
       description: "Coke, Diet, Cherry, Sprite, Zero, or Lemonade",
       price: "1.59",
-      image: "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=400&h=300&fit=crop"
+      image: "https://source.unsplash.com/L7ugLVFdejY/400x300"
     },
     {
       name: "20oz Soda",
