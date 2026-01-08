@@ -58,7 +58,7 @@ function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.7 }}
         >
-          At Michelangelo's every pizza is a masterpiece of authentic Italian taste,
+          At Michelangelo every pizza is a masterpiece of authentic Italian taste,
           made with love by a real Italian family in Asheville.
         </motion.p>
         <motion.div
