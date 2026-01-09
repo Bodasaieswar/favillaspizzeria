@@ -1,4 +1,4 @@
-// Menu Data - Complete Favilla's Real NY Pizza Menu
+// Menu Data - Complete Michelangelo NY Pizza & Pasta Menu
 export const menuData = {
   appetizers: [
     {
@@ -48,7 +48,7 @@ export const menuData = {
   ],
   pizzas: [
     {
-      name: "Favilla's Traditional Pizza",
+      name: "Michelangelo Traditional Pizza",
       description: "Our signature NY style pizza with house-made sauce and premium mozzarella",
       price: "10.99",
       image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&h=300&fit=crop",
