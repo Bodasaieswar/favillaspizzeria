@@ -391,7 +391,7 @@ export const categoryNames = {
 export const ORDER_URL = "https://favillasrealnypizza.hrpos.heartland.us/menu"
 
 export const RESTAURANT_INFO = {
-  name: "Favilla's Real NY Pizza",
+  name: "Michelangelo NY Pizza & Pasta",
   tagline: "Real Italians - Real New Yorkers",
   address: {
     street: "5 Regent Park Blvd",
