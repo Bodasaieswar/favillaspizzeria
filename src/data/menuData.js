@@ -388,7 +388,7 @@ export const categoryNames = {
   desserts: "Desserts"
 }
 
-export const ORDER_URL = "https://favillasrealnypizza.hrpos.heartland.us/menu"
+export const ORDER_URL = "https://MichelangeloNYPizzaPasta.hrpos.heartland.us/menu"
 
 export const RESTAURANT_INFO = {
   name: "Michelangelo NY Pizza & Pasta",
