@@ -13,7 +13,7 @@ function Header() {
         <div className="flex items-center gap-4">
           <img
             src="/logo.png"
-            alt="Favilla's Pizza"
+            alt="Michelangelo NY Pizza & Pasta"
             className="w-12 h-12 rounded-full border-[3px] border-gold object-cover"
           />
           <div>
