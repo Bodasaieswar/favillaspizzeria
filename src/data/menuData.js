@@ -1,19 +1,7 @@
 // Menu Data - Complete Michelangelo NY Pizza & Pasta Menu
 export const menuData = {
   appetizers: [
-    {
-      name: "Jamaican Beef Patties",
-      description: "Savory seasoned beef wrapped in a flaky golden crust",
-      price: "5.50"
-    
-    },
-    {
-      name: "Fried Zucchini Sticks",
-      description: "Crispy breaded zucchini sticks served with marinara sauce",
-      price: "8.99"
-      
-    },
-    {
+       {
       name: "Mozzarella Sticks",
       description: "Golden fried mozzarella served with homemade marinara sauce",
       price: "8.99",
