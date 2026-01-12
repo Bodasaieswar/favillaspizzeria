@@ -4,14 +4,14 @@ export const menuData = {
     {
       name: "Jamaican Beef Patties",
       description: "Savory seasoned beef wrapped in a flaky golden crust",
-      price: "5.50",
-      image: "https://images.unsplash.com/photo-1632203171982-cc0df6e9ebeb?w=400&h=300&fit=crop"
+      price: "5.50"
+    
     },
     {
       name: "Fried Zucchini Sticks",
       description: "Crispy breaded zucchini sticks served with marinara sauce",
-      price: "8.99",
-      image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&h=300&fit=crop"
+      price: "8.99"
+      
     },
     {
       name: "Mozzarella Sticks",
