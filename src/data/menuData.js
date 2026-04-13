@@ -335,7 +335,7 @@ export const RESTAURANT_INFO = {
   },
   phone: "(828) 225-2885",
   hours: {
-    weekday: { days: "Monday - Thursday", time: "11:00 AM - 8:00 PM" },
+    weekday: { days: "Tuesday - Thursday", time: "11:00 AM - 8:00 PM" },
     weekend: { days: "Friday - Saturday", time: "11:00 AM - 9:00 PM" },
     sunday: { days: "Sunday", time: "12:00 PM - 8:00 PM" }
   }
