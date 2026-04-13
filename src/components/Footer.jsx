@@ -49,7 +49,7 @@ function Footer() {
               <li>
                 <a
                   href={ORDER_URL}
-                  target="_blank"
+                  target="_self"
                   rel="noopener noreferrer"
                   className="text-white/70 hover:text-gold hover:pl-2 transition-all"
                 >
