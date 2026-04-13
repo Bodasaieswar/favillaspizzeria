@@ -44,7 +44,7 @@ function Header() {
           </a>
           <motion.a
             href={ORDER_URL}
-            target="_blank"
+            target="_self"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
