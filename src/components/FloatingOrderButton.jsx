@@ -5,7 +5,7 @@ function FloatingOrderButton() {
   return (
     <motion.a
       href={ORDER_URL}
-      target="_blank"
+      target="_self"
       rel="noopener noreferrer"
       initial={{ scale: 0 }}
       animate={{ scale: 1 }}
