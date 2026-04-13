@@ -70,7 +70,7 @@ function LocationHours() {
 
             <motion.a
               href={ORDER_URL}
-              target="_blank"
+              target="_self"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -95,7 +95,7 @@ function LocationHours() {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Favilla's Real NY Pizza Location"
+              title="Michelangelo Real NY Pizza Location"
               className="w-full"
             ></iframe>
           </motion.div>
