@@ -70,8 +70,7 @@ function LocationHours() {
 
             <motion.a
               href={ORDER_URL}
-              target="_self"
-              rel="noopener noreferrer"
+              
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="inline-block mt-10 bg-gradient-to-r from-gold to-gold-dark text-dark-brown px-8 py-4 rounded-full font-bold text-lg uppercase tracking-wider shadow-xl hover:shadow-2xl transition-all"
