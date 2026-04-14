@@ -4,9 +4,7 @@ import { ORDER_URL } from '../data/menuData'
 function FloatingOrderButton() {
   return (
     <motion.a
-      href={ORDER_URL}
-      target="_self"
-      rel="noopener noreferrer"
+      href={ORDER_URL}    
       initial={{ scale: 0 }}
       animate={{ scale: 1 }}
       transition={{ delay: 1, type: 'spring', stiffness: 200 }}
