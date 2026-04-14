@@ -44,8 +44,7 @@ function Header() {
           </a>
           <motion.a
             href={ORDER_URL}
-            target="_self"
-            rel="noopener noreferrer"
+            
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="bg-gradient-to-r from-gold to-gold-dark text-dark-brown px-6 py-2 rounded-full font-bold uppercase tracking-wide shadow-lg hover:shadow-xl transition-shadow"
